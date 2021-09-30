@@ -1,0 +1,12 @@
+@at-root{
+	$component: &;
+
+	#{$component}{
+		@media screen and (min-width: get-breakpoint(sm)){
+		}
+		@media screen and (min-width: get-breakpoint(md)){
+		}
+		@media screen and (min-width: get-breakpoint(lg)){
+		}
+	}
+}

@@ -1,0 +1,3 @@
+@function get-vw($width){
+	@return (($width / $design-layout-width) * 100) +vw;
+}

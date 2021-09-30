@@ -1,0 +1,6 @@
+@function get-element($elementClass){
+	$block: &;
+	$elementDelimiter: "__";
+	
+	@return $block + $elementDelimiter + $elementClass;
+}

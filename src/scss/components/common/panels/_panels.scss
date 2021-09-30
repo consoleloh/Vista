@@ -1,0 +1,22 @@
+@at-root{
+	$component: &;
+
+	#{$component}{
+		@media screen and (min-width: get-breakpoint(sm)){
+		}
+		@media screen and (min-width: get-breakpoint(md)){
+		}
+		@media screen and (min-width: get-breakpoint(lg)){
+		}
+		&--horizontal{
+			@media screen and (min-width: get-breakpoint(sm)){
+				display: flex;
+				margin: 0 -8px;
+			}
+			@media screen and (min-width: get-breakpoint(md)){
+			}
+			@media screen and (min-width: get-breakpoint(lg)){
+			}
+		}
+	}
+}

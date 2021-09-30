@@ -1,0 +1,7 @@
+$block: get-block("tabs");
+
+#{$block}{
+	@import "tabs";
+	@import "tabs__item";
+
+}

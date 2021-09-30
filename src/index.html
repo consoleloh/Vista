@@ -1,0 +1,77 @@
+//= template/common/head.html
+<body class="c-page">
+	<main class="c-page__body">
+		<div class="c-panels c-panels--horizontal">
+			<div class="c-panels__item c-panels__item--primary c-panel">
+				<div class="c-panel__header">
+					<h1 class="c-panel__title c-panel__title--decorated">
+						Информация о пациенте
+					</h1>
+				</div>
+	
+				<div class="c-panel__body">
+					<div class="c-list c-list--definitions" id="patientDetails">
+						<div class="c-list__item">
+							ФИО
+							<span class="c-list__input js-patient-name-input"></span>
+						</div>
+						
+						<div class="c-list__item">
+							Возраст
+							<span class="c-list__input js-patient-age-input"></span>
+						</div>
+						
+						<div class="c-list__item">
+							Диагноз
+							<span class="c-list__input js-patient-diagnosis-input"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="c-panels__item c-panels__item--clear c-panel">
+				<div class="c-panel__header c-panel__header--default">
+					<div class="c-tabs">
+						<a href="#patientsPresent" class="c-tabs__item c-tabs__item--active">
+							Присутствуют&nbsp;<span class="js-patients-count-input"></span>
+						</a>
+						
+						<a href="#patientsQuitting" class="c-tabs__item">
+							Выбывшие&nbsp;<span class="js-patients-count-input"></span>
+						</a>
+					</div>
+				</div>
+	
+				<div class="c-panel__body">
+					<table class="c-table c-table--tab-content" id="patientsPresent">
+						<thead>
+							<tr>
+								<th>№ ИБ</th>
+
+								<th>ФИО</th>
+
+								<th>Палата</th>
+							</tr>
+						</thead>
+						
+						<tbody></tbody>
+					</table>
+					
+					<table class="c-table c-table--tab-content" id="patientsQuitting">
+						<thead>
+							<tr>
+								<th>№ ИБ</th>
+
+								<th>ФИО</th>
+
+								<th>Причина выбытия</th>
+							</tr>
+						</thead>
+						
+						<tbody></tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+//= template/common/foot.html

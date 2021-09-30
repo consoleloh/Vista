@@ -1,0 +1,8 @@
+$block: get-block("page");
+
+#{$block}{
+	@import "page";
+	@import "page__wrapper";
+	@import "page__body";
+
+}

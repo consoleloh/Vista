@@ -1,0 +1,14 @@
+@at-root{
+	$component: &;
+
+	#{$component}{
+		padding: 15px;
+		background-color: get-color(pageBg);
+		@media screen and (min-width: get-breakpoint(sm)){
+		}
+		@media screen and (min-width: get-breakpoint(md)){
+		}
+		@media screen and (min-width: get-breakpoint(lg)){
+		}
+	}
+}

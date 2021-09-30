@@ -1,0 +1,7 @@
+$block: get-block("panels");
+
+#{$block}{
+	@import "panels";
+	@import "panels__item";
+
+}

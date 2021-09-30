@@ -1,0 +1,9 @@
+$block: get-block("panel");
+
+#{$block}{
+	@import "panel";
+	@import "panel__header";
+	@import "panel__title";
+	@import "panel__body";
+
+}

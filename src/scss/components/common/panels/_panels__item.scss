@@ -1,0 +1,36 @@
+@at-root{
+	$component: get-element("item");
+
+	#{$component}{
+		background-color: get-color(white);
+		box-shadow: 0 0 5px rgba(get-color(black), 0.2);
+		@media screen and (min-width: get-breakpoint(sm)){
+		}
+		@media screen and (min-width: get-breakpoint(md)){
+		}
+		@media screen and (min-width: get-breakpoint(lg)){
+		}
+		&--primary{
+			border: 2px solid get-color(primary);
+			box-shadow: none;
+			@media screen and (min-width: get-breakpoint(sm)){
+			}
+			@media screen and (min-width: get-breakpoint(md)){
+			}
+			@media screen and (min-width: get-breakpoint(lg)){
+			}
+		}
+	}
+	.c-panels--horizontal{
+		#{$component}{
+			flex: 1;
+			margin: 0 7px;
+			@media screen and (min-width: get-breakpoint(sm)){
+			}
+			@media screen and (min-width: get-breakpoint(md)){
+			}
+			@media screen and (min-width: get-breakpoint(lg)){
+			}
+		}
+	}
+}

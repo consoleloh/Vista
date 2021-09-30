@@ -1,0 +1,5 @@
+@function get-block($blockClass){
+	$prefix: get-prefix(component);
+	
+	@return "." + $prefix + $blockClass;
+}

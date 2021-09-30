@@ -1,0 +1,40 @@
+@at-root{
+	$component: get-element("header");
+
+	#{$component}{
+		height: 40px;
+		padding: 0 15px;
+		border-bottom: 1px solid get-color(underlineBg);
+		background-color: get-color(panelHeaderBg);
+		@media screen and (min-width: get-breakpoint(sm)){
+		}
+		@media screen and (min-width: get-breakpoint(md)){
+		}
+		@media screen and (min-width: get-breakpoint(lg)){
+		}
+	}
+	.c-panels__item--primary{
+		#{$component}{
+			height: 38px;
+			border-bottom: 0;
+			background-color: get-color(primary);
+			@media screen and (min-width: get-breakpoint(sm)){
+			}
+			@media screen and (min-width: get-breakpoint(md)){
+			}
+			@media screen and (min-width: get-breakpoint(lg)){
+			}
+		}
+	}
+	.c-panels__item--clear{
+		#{$component}{
+			padding: 0;
+			@media screen and (min-width: get-breakpoint(sm)){
+			}
+			@media screen and (min-width: get-breakpoint(md)){
+			}
+			@media screen and (min-width: get-breakpoint(lg)){
+			}
+		}
+	}
+}

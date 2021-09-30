@@ -1,0 +1,32 @@
+@at-root{
+	$component: get-element("item");
+
+	#{$component}{
+		display: flex;
+		align-items: center;
+		padding: 2px 15px 0;
+		border-bottom: 2px solid transparent;
+		font-size: 14px;
+		text-transform: uppercase;
+		transition: all 0.3s;
+		&:hover{
+			color: darken(get-color(primary), 10%);
+		}
+		@media screen and (min-width: get-breakpoint(sm)){
+		}
+		@media screen and (min-width: get-breakpoint(md)){
+		}
+		@media screen and (min-width: get-breakpoint(lg)){
+		}
+		&--active{
+			border-bottom-color: get-color(primary);
+			color: darken(get-color(primary), 10%);
+			@media screen and (min-width: get-breakpoint(sm)){
+			}
+			@media screen and (min-width: get-breakpoint(md)){
+			}
+			@media screen and (min-width: get-breakpoint(lg)){
+			}
+		}
+	}
+}

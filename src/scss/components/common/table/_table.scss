@@ -1,0 +1,48 @@
+@at-root{
+	$component: &;
+
+	#{$component}{
+		table-layout: fixed;
+		border-collapse: collapse;
+		width: 100%;
+		font-size: 14px;
+		@media screen and (min-width: get-breakpoint(sm)){
+		}
+		@media screen and (min-width: get-breakpoint(md)){
+		}
+		@media screen and (min-width: get-breakpoint(lg)){
+		}
+		&--tab-content{
+			display: none;
+		}
+		thead{
+			text-align: left;
+		}
+		tbody{
+			tr{
+				transition: all 0.3s;
+				cursor: pointer;
+				&:hover{
+					background-color: rgba(get-color(underlineBg), 0.5);
+				}
+				&.active{
+					border-left-color: get-color(primary);
+					background-color: rgba(get-color(underlineBg), 0.5);
+				}
+			}
+		}
+		tr{
+			border-left: 2px solid transparent;
+		}
+		th, td{
+			height: 35px;
+			padding: 0 15px 0 13px;
+			border-bottom: 1px solid get-color(underlineBg);
+		}
+		th{
+			width: 100%;
+			font-weight: 300;
+			opacity: 0.6;
+		}
+	}
+}

@@ -1,0 +1,20 @@
+@font-face {
+	font-family: "Muller";
+	src: url("../fonts/Muller/MullerRegular.eot");
+	src: local("Muller Regular"), local("MullerRegular"),
+		url("../fonts/Muller/MullerRegular.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/Muller/MullerRegular.woff") format("woff"),
+		url("../fonts/Muller/MullerRegular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Muller";
+	src: url("../fonts/Muller/MullerLight.eot");
+	src: local("Muller Light"), local("MullerLight"),
+		url("../fonts/Muller/MullerLight.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/Muller/MullerLight.woff") format("woff"),
+		url("../fonts/Muller/MullerLight.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+}

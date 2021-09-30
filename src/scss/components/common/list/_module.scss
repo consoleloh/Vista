@@ -1,0 +1,8 @@
+$block: get-block("list");
+
+#{$block}{
+	@import "list";
+	@import "list__item";
+	@import "list__input";
+
+}
